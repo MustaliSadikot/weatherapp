@@ -60,7 +60,7 @@ function Home(props) {
         theme="dark"
       />
       <div
-        className="container text-light rounded-2 py-2 my-2 mt-3"
+        className="container text-light rounded-2 py-2 my-2 mt-2"
         style={{ backgroundColor: "rgba(0,0,0,0.5)", width: "95vw" }}
       >
         <Nav getinfo={getinfo} handlechange={handlechange}></Nav>

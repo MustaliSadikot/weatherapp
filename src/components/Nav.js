@@ -18,7 +18,7 @@ function Nav(props) {
               <button className="btn btn-warning" type="submit" onClick={props.getinfo}>
                 Search
               </button>
-              <Link type="button" class="btn btn-warning ms-2" to="/review">Review</Link>
+              {/* <Link type="button" class="btn btn-warning ms-2" to="/review">Review</Link> */}
             </div>
           </div>
         </nav>
